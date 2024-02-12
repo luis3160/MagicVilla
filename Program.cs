@@ -1,11 +1,23 @@
+using MagiVilla.Datos;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+
+builder.Services.AddControllers().AddNewtonsoftJson();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+builder.Services.AddDbContext<AplicationDbContext>(opcion =>
+{
+    opcion.UseSqlServer(builder.Configuration.GetConnectionString("DefaultCommection"));
+
+});
+
 
 var app = builder.Build();
 
