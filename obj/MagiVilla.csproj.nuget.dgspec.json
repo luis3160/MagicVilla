@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luis4\\Documents\\class_cost\\MagiVilla\\MagiVilla\\MagiVilla.csproj": {}
+    "C:\\Users\\luis4\\Documents\\classCost\\MagiVilla\\MagicVilla\\MagiVilla.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luis4\\Documents\\class_cost\\MagiVilla\\MagiVilla\\MagiVilla.csproj": {
+    "C:\\Users\\luis4\\Documents\\classCost\\MagiVilla\\MagicVilla\\MagiVilla.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luis4\\Documents\\class_cost\\MagiVilla\\MagiVilla\\MagiVilla.csproj",
+        "projectUniqueName": "C:\\Users\\luis4\\Documents\\classCost\\MagiVilla\\MagicVilla\\MagiVilla.csproj",
         "projectName": "MagiVilla",
-        "projectPath": "C:\\Users\\luis4\\Documents\\class_cost\\MagiVilla\\MagiVilla\\MagiVilla.csproj",
+        "projectPath": "C:\\Users\\luis4\\Documents\\classCost\\MagiVilla\\MagicVilla\\MagiVilla.csproj",
         "packagesPath": "C:\\Users\\luis4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luis4\\Documents\\class_cost\\MagiVilla\\MagiVilla\\obj\\",
+        "outputPath": "C:\\Users\\luis4\\Documents\\classCost\\MagiVilla\\MagicVilla\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,6 +65,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.1, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

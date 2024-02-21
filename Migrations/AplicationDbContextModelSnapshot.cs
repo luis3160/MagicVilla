@@ -64,6 +64,34 @@ namespace MagiVilla.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("villas");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Amenidad = "",
+                            Detalle = "Detalle de la villa...",
+                            FechaActuslizacion = new DateTime(2024, 2, 19, 15, 30, 54, 551, DateTimeKind.Local).AddTicks(7267),
+                            FechaCreaccion = new DateTime(2024, 2, 19, 15, 30, 54, 551, DateTimeKind.Local).AddTicks(7257),
+                            ImagenUrl = "",
+                            MetrosCuadrados = 50,
+                            Nombre = "Villa Real",
+                            Ocupantes = 5,
+                            Tarifa = 200.0
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Amenidad = "",
+                            Detalle = "Detalle de la villa...",
+                            FechaActuslizacion = new DateTime(2024, 2, 19, 15, 30, 54, 551, DateTimeKind.Local).AddTicks(7270),
+                            FechaCreaccion = new DateTime(2024, 2, 19, 15, 30, 54, 551, DateTimeKind.Local).AddTicks(7269),
+                            ImagenUrl = "",
+                            MetrosCuadrados = 40,
+                            Nombre = "Premium vista a la pscina",
+                            Ocupantes = 4,
+                            Tarifa = 150.0
+                        });
                 });
 #pragma warning restore 612, 618
         }

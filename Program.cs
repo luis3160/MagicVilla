@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<AplicationDbContext>(opcion =>
 {
-    opcion.UseSqlServer(builder.Configuration.GetConnectionString("DefaultCommection"));
+    opcion.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 
 });
 

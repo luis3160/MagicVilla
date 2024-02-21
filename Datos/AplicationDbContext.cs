@@ -13,7 +13,7 @@ namespace MagiVilla.Datos
 
 
 
-        public DbSet<Villa> villas { get; set; }
+        public DbSet<Villa> Villas { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
